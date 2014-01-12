@@ -12,6 +12,6 @@ Run using
 
     $ python bootstrap.py -d -v 2.1.0 
     $ bin/buildout -N
-    $ bin/paster serve proxy.ini
+    $ bin/paster serve --reload proxy.ini
 
 Install packages libxml2-dev libxslt1-dev
